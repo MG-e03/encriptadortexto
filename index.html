@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura Challenge 2024</title>
+    <link rel="stylesheet" href="styles/style.css">
+<style></style></head>
+<body>
+    <header>
+        <nav>
+            <img class="logo-alura" src="assets/Logo.png" alt="Logo">
+        </nav>
+
+        <
+
+    </header>
+    <main>
+        <section class="seccion_izquierda">
+            <textarea id="textoEntrada" class="texto_entrada_izquierda" placeholder="Ingrese texto aquí"></textarea>
+            <p class="mensaje">Solo puedes insertar  letras minúsculas y sin acentos!</p>
+            <br>
+            <div class="contenedor_botones">
+                <button type="button" class="boton_encriptar" onclick="encriptar()">Encriptar</button>
+
+                <button type="button" class="boton_desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion_derecha">
+            <div class="contenedor_salida" id="contenedorSalida">
+                <textarea id="textoSalida" class="texto_salida_derecha" readonly=""></textarea>
+                <div id="contenedorImagen" class="contenedor_imagen">
+                    <img src="assets/imagenRobot.png" alt="imagenRobot">
+                    <p>Ningún mensaje fue encontrado</p>
+                </div>
+            </div>
+            <div class="contenedor_boton_copiar">
+                <button id="botonCopiar" class="boton_copiar" onclick="copiarTexto()" style="display: none;">Copiar</button>
+            </div>
+        </section>
+    </main>
+      <footer>   
+    <p class="footer">Designe by Maria Gutierrez</p>
+       
+</footer>
+    <script src="script/script.js"></script>
+
+
+</body></html>
